@@ -1,0 +1,195 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(../img/main.jpg);
+    background-attachment: fixed;
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-align: center;
+    color: #fff;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+#main{
+    width: 85vw;
+    margin: auto;
+}
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1,h2,h3{
+    margin: 0;
+    padding: 1em 0;
+}
+
+p{
+    margin: 0;
+    padding: 1em 0;
+}
+
+#showcase{
+    min-height: 100vh;
+    background-color: rgb(29, 23, 23);
+    background-image: url(../img/background-image.png);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+header nav{
+    height: 150px;
+}
+
+#showcase p{
+    margin-top: -50px;
+    letter-spacing: .3em;
+    font-size: 17px;
+}
+
+.showcase-heading{
+    font-size: 35px;
+}
+
+span{
+    color: yellow;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+header nav ul li{
+    list-style: none;
+    padding: 10px 25px;
+}
+
+header nav ul a:hover{
+    color: yellow;
+    text-transform: uppercase;
+}
+.bg-image{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: calc(50% - 100px);
+    border-radius: 50%;
+    border: 7px solid yellow;
+}
+
+.bg-image img{
+    border-radius: 50%;
+}
+#showcase .content-wrap,#about-section .content-wrap{
+    padding: 0 1.5em;
+}
+
+#showcase .content-wrap{
+    position: relative;
+    top: 180px;
+    font-size: 2rem;
+}
+
+#about-section{
+    background: #333;
+}
+
+#about-section p{
+    letter-spacing: 1px;
+}
+
+#skills-section .card{
+    background: transparent;
+    background-attachment: fixed;
+    opacity: .9;
+}
+
+#skills-section ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#skills-section li{
+    margin-bottom: 1em;
+    background: transparent;
+    color: #fff;
+}
+
+#skills-section .card{
+    background: transparent;
+    min-height: 150px;
+    padding: 15px 0;
+}
+#skills-section img{
+    width: 200px;
+    position: absolute;
+    left: calc(50% - 100px);
+}
+ .card-content{
+     padding: 1.5em;
+ }
+
+ #projects-section{
+     background: #fff;
+     color: #111;
+ }
+
+ #projects-section .card{
+     border: 2px solid gray;
+ }
+
+ #contacts-section form{
+   display: flex;
+   flex-direction: column;
+   text-transform: lowercase;
+   margin: 25px;
+ }
+
+ #contacts-section form > input{
+     height: 30px;
+     background: transparent;
+     color: lightgreen;
+     border: 2px solid gray;
+ }
+
+ #contacts-section form textarea{
+     background: transparent;
+     color: lightgreen;
+     height: 60px;
+ }
+
+ #contacts-section form .btn{
+     margin-top: 20px;
+     cursor: pointer;
+     color: #fff;
+ }
+ #contacts-section form .btn:hover{
+     color: #111;
+     font-size: 17px;
+     background: yellow;
+     transform: translateX(10deg);
+     transition: 1s;
+ }
+
+ #section-footer i{
+     padding: 0 15px;
+ }
+
+ #section-footer h2{
+     font-size: 18px;
+ }
+
+ #section-footer {
+    color: lightgreen;
+ }
