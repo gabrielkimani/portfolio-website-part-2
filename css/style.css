@@ -7,7 +7,7 @@ body{
     line-height: 1.5;
     text-align: center;
     color: #fff;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 html{
@@ -136,6 +136,10 @@ header nav ul a:hover{
     width: 200px;
     position: absolute;
     left: calc(50% - 100px);
+}
+
+#projects-section a{
+    color: green;
 }
  .card-content{
      padding: 1.5em;
