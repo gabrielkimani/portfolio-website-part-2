@@ -90,7 +90,7 @@ header nav ul a:hover{
     position: absolute;
     left: calc(50% - 100px);
     border-radius: 50%;
-    border: 7px solid yellow;
+    border: 7px solid lightgreen;
 }
 
 .bg-image img{
@@ -214,7 +214,7 @@ header nav ul a:hover{
      }
 
      #showcase .content-wrap{
-         top: 155px;
+         top: 159px;
      }
 
      header nav{
