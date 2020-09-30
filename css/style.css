@@ -108,6 +108,7 @@ header nav ul a:hover{
 
 #about-section{
     background: #333;
+    margin-top: 15px;
 }
 
 #about-section p{
@@ -208,5 +209,6 @@ header nav ul a:hover{
      .bg-image{
          height: 150px;
          width: 150px;
+         left: calc(50% - 75px);
      }
  }
