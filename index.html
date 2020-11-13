@@ -37,8 +37,10 @@
         </section>
         <section id="skills-section" class="grid">
             <h2>my skills</h2>
+             <div class="card-wrapper">
             <ul>
                 <li>
+
                     <div class="card">
                         <img src="img/html.png" alt="html">
                     </div>
@@ -70,24 +72,39 @@
                     </div>
                 </li>
             </ul>
-        </section>
+        </div>
+        </section><hr>
 
         <section id="projects-section" class="grid">
             <h2>MY PROJECTS</h2>
+            <div class="Projects">
             <div class="card">
                 <img src="img/covid-19.PNG" alt="">
                 <h3>corona tracker</h3>
                 <h4><a href="https://kimcoronatracker.netlify.app/">view project</a></h4>
                 <p>This is a web app that is able to get data from an api for corona cases globally and display them.It can also get confirmed,recovered and deaths on individual country world wide.I used react js,html and materialize css to develop the app with other node modules.</p>
             </div>
+            <div class="card">
+                <img src="img/covid-19.PNG" alt="">
+                <h3>corona tracker</h3>
+                <h4><a href="https://kimcoronatracker.netlify.app/">view project</a></h4>
+                <p>This is a web app that is able to get data from an api for corona cases globally and display them.It can also get confirmed,recovered and deaths on individual country world wide.I used react js,html and materialize css to develop the app with other node modules.</p>
+            </div>
+            <div class="card">
+                <img src="img/covid-19.PNG" alt="">
+                <h3>corona tracker</h3>
+                <h4><a href="https://kimcoronatracker.netlify.app/">view project</a></h4>
+                <p>This is a web app that is able to get data from an api for corona cases globally and display them.It can also get confirmed,recovered and deaths on individual country world wide.I used react js,html and materialize css to develop the app with other node modules.</p>
+            </div>
+</div>
         </section>
         <section id="contacts-section" class="grid">
             <div class="wrap-content">
                 <h2 class="contact-heading">contact me</h2>
-                <form>
-                    <label for="email">EMAIL ADDRESS</label>
-                        <input type="text" placeholder="Enter your email">
-                    <label for="message">MESSAGE</label>
+                <form id="form" name="contact-form" method="POST" data-netlify="true">
+                    <label for="email" name="email">EMAIL ADDRESS</label>
+                        <input type="text" placeholder="Enter your email" id="email">
+                    <label for="message" name="message">MESSAGE</label>
                         <textarea name="message" id="message" placeholder="Enter your message"></textarea>
                     <input type="submit" value="Send" class="btn">
                     <h4>Tel:+254798871229</h4>
@@ -95,6 +112,7 @@
                 </form>
             </div>
         </section>
+        <hr>
         <section id="section-footer" class="grid">
             <div class="content-wrap">
                 <h2>All rghts reserved.Gabriel &copy; 2020</h2>
@@ -105,5 +123,6 @@
             </div>
         </section>
     </main>
+    <script src="js/main.js"></script>
 </body>
 </html>
