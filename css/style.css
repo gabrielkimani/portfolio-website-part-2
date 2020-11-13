@@ -119,6 +119,7 @@ header nav ul a:hover{
     background: transparent;
     background-attachment: fixed;
     opacity: .9;
+
 }
 
 #skills-section ul{
@@ -134,15 +135,16 @@ header nav ul a:hover{
 }
 
 #skills-section .card{
-    border: 3px solid gray;
     background: transparent;
     min-height: 150px;
     padding: 15px 0;
+     border: 2px solid gray;
 }
 #skills-section img{
     width: 200px;
     position: absolute;
     left: calc(50% - 100px);
+
 }
 
 #projects-section a{
@@ -152,14 +154,13 @@ header nav ul a:hover{
      padding: 1.5em;
  }
 
- #projects-section{
-     background: #fff;
-     color: #111;
- }
-
- #projects-section .card{
-     border: 2px solid gray;
- }
+ 
+.Projects .card{
+     	padding: 8px;
+     	background: #282828;
+     	color: #fff;
+     }
+ 
 
  #contacts-section form{
    display: flex;
@@ -221,4 +222,48 @@ header nav ul a:hover{
      header nav{
          display: none;
      }
+     .Projects{
+		padding: 10px;
+		margin-top: 15px;
+		background: #333;
+     }
+     .Projects .card{
+     	margin-top: 80px;
+     	
+     }
+ }
+
+ @media(min-width: 800px){
+ 	.card-wrapper{
+ 		display: grid;
+	grid-gap: 15px;
+	grid-template: auto/repeat(auto-fit, minmax(250px, 1fr));
+	margin-left: auto;
+	margin-right: auto;
+	
+ 	}
+ 	#skills-section .card{
+ 		max-width: 250px;
+ 		margin: auto;
+
+ 	}
+ 	#skills-section .card img{
+ 		max-width: 100%;
+ 		max-height: 100%;
+ 		position: relative;
+ 	}
+ 	.Projects{
+ 	 display: grid;
+ 	 background: #282828;
+ 	 color: #fff;
+ 	 padding: 10px;
+		margin-top: 15px;
+		
+	grid-gap: 15px;
+	grid-template: auto/repeat(auto-fit, minmax(100px, 1fr));
+	margin: auto;
+ }
+ .Projects .card{
+
+ }
  }
